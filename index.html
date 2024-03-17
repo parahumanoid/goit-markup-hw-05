@@ -488,6 +488,7 @@
           Leave your contacts and we will call you back
         </p>
         <form>
+          <!-- child 1: text: name -->
           <div class="formlabel-divcontainer">
             <label for="user-name" class="formlabel-label">Name</label>
             <div class="formlabel-inputwrap">
@@ -502,6 +503,7 @@
               </svg>
             </div>
           </div>
+          <!-- child 2: text: phone -->
           <div class="formlabel-divcontainer">
             <label for="user-phone" class="formlabel-label">Phone</label>
             <div class="formlabel-inputwrap">
@@ -516,6 +518,7 @@
               </svg>
             </div>
           </div>
+          <!-- child 3: text: email -->
           <div class="formlabel-divcontainer">
             <label for="user-email" class="formlabel-label">Email</label>
             <div class="formlabel-inputwrap">
@@ -529,6 +532,30 @@
                 <use href="./images/icons.svg#form-envelope"></use>
               </svg>
             </div>
+          </div>
+          <!-- child 4: textarea: comment -->
+          <div>
+            <label class="formlabel-label" for="user-comment">Comment</label>
+            <textarea
+              id="user-comment"
+              name="user-comment"
+              placeholder="Text input"
+              class="formlabel-textarea"
+            ></textarea>
+          </div>
+          <!-- child 5: checkbox: privacy agreement -->
+          <div>
+            <input
+              id="user-privacy"
+              type="checkbox"
+              value="true"
+              name="user-privacy"
+            />
+            <label for="user-privacy">
+              <span
+                >I accept the terms and conditions of the Privacy Policy</span
+              >
+            </label>
           </div>
         </form>
       </div>
