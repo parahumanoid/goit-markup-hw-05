@@ -91,6 +91,7 @@ nav li {
 }
 
 .nav-link {
+    display: block;
     color:  #2E2F42;
     font-size: 16px;
     font-weight: 500;
@@ -281,6 +282,7 @@ nav li {
     margin-bottom: 8px;
 }
 .staff-position {
+    margin-bottom: 8px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
