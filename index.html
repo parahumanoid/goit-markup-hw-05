@@ -488,11 +488,20 @@
           Leave your contacts and we will call you back
         </p>
         <form>
-          <div>
-            <label>Name</label>
+          <div class="formlabel-divcontainer">
+            <label for="user-name" class="formlabel-label">Name</label>
           </div>
-          <div>
-            <input type="text" name="name" id="name" placeholder="Your name" />
+          <div class="formlabel-inputwrap">
+            <input
+              class="formlabel-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Your name"
+            />
+            <svg width="18" height="24" class="formlabel-input-icon">
+              <use href="./images/icons.svg#form-person"></use>
+            </svg>
           </div>
         </form>
       </div>
