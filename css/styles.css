@@ -609,7 +609,7 @@ nav li {
 .formagreement-divcontainer{
     margin-bottom: 24px;
 }
-.formagreement-inputcheckbox:checked .formagreement-labelspan {
+.formagreement-inputcheckbox:checked+.formagreement-label .formagreement-labelspan {
     background-color: #404bbf;
     border: none;
     fill: #f4f4fd;
