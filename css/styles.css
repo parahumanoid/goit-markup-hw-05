@@ -603,3 +603,9 @@ nav li {
 .formlabel-textarea:focus {
     border-color: #4D5AE5;
 }
+.formcomment-divcontainer {
+    margin-bottom: 16px;
+}
+.formagreement-divcontainer{
+    margin-bottom: 24px;
+}
