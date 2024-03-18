@@ -583,9 +583,10 @@ nav li {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .formlabel-input:focus {
-    border: #4d5ae5;
+    border: 1px solid #4d5ae5;
 }
 .formlabel-input-icon {
+    fill: #2E2F42;
     position: absolute;
     left: 16px;
     top: 50%;
